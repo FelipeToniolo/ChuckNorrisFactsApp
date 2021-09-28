@@ -3,4 +3,6 @@
     <string name="text_card_recycler_facts">If you Google search\nChuck Norris getting his ass kicked\nyou will generate zero results. It just doesn\'t happen.</string>
     <string name="text_uncategory">UNCATEGORY</string>
     <string name="text_facts_welcome_app">welcome to my app.\n\n click the floating button for fact search..</string>
+    <string name="text_search_here">do a search here</string>
+    <string name="text_search_again">Search Again</string>
 </resources>
