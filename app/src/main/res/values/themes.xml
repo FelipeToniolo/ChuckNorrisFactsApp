@@ -1,6 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.ChuckNorrisFacts" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/bossanova</item>
         <item name="colorPrimaryVariant">@color/salt_box</item>
@@ -12,6 +14,21 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">@color/trendy_pink</item>
+
+        <!-- App Theme Font -->
+        <item name="fontFamily">@font/chuck_norris</item>
     </style>
+
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/linear_interpolator</item>
+    </style>
+
+    <style name="Theme.ChuckNorrisFacts.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ChuckNorrisFacts.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ChuckNorrisFacts.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
