@@ -24,7 +24,7 @@ class SplashScreen : AppCompatActivity() {
             }
 
             override fun onTransitionCompleted(motionLayout: MotionLayout?, currentId: Int) {
-                val intent = Intent(this@SplashScreen, MainActivity::class.java)
+                val intent = Intent(this@SplashScreen, FactsActivity::class.java)
                 startActivity(intent)
                 finish()
             }
