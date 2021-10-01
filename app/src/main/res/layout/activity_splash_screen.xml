@@ -6,8 +6,9 @@
     android:id="@+id/screen_motion"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/trendy_pink"
     app:layoutDescription="@xml/activity_splash_screen_scene"
-    tools:context=".SplashScreen">
+    tools:context=".ui.activities.SplashScreen">
 
     <ImageView
         android:id="@+id/imageView"
