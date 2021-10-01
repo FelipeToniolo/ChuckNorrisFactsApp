@@ -1,4 +1,4 @@
-package br.ftoniolo.chucknorrisfacts
+package br.ftoniolo.chucknorrisfacts.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
