@@ -13,7 +13,6 @@ import br.ftoniolo.chucknorrisfacts.presenter.search.SearchActivityPresenter
 import br.ftoniolo.chucknorrisfacts.presenter.search.ViewSearchHome
 import br.ftoniolo.chucknorrisfacts.ui.adapters.CategoriesListAdapter
 import br.ftoniolo.chucknorrisfacts.utils.LoadingDialog
-import br.ftoniolo.chucknorrisfacts.utils.filterMinLength
 
 class SearchActivity : AppCompatActivity(), ViewSearchHome.View {
 
